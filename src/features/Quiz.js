@@ -125,6 +125,7 @@ const Quiz = () => {
                       marginLeft: "2vw",
                       marginRight: "2vw",
                       marginBottom: "5vh",
+                      borderRadius: "8px",
                     }}
                   >
                     {decodeURIComponent(answer)}
