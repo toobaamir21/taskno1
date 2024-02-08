@@ -125,6 +125,7 @@ const Quiz = () => {
                       marginLeft: "2vw",
                       marginRight: "2vw",
                       marginBottom: "5vh",
+                      border: "1px solid black",
                       borderRadius: "8px",
                     }}
                   >
