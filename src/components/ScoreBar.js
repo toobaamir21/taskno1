@@ -47,6 +47,7 @@ const ScoreBar = ({ completed, predictWrong, predictCorrect }) => {
             backgroundColor: "black",
             zIndex: 100,
             color: "white",
+            transition: "width .5s linear",
           }}
         ></div>
 
@@ -58,6 +59,7 @@ const ScoreBar = ({ completed, predictWrong, predictCorrect }) => {
             height: "100%",
             backgroundColor: "gray",
             zIndex: 3,
+            transition: "width .5s linear",
           }}
         ></div>
 
@@ -69,6 +71,7 @@ const ScoreBar = ({ completed, predictWrong, predictCorrect }) => {
             height: "100%",
             backgroundColor: "lightgray",
             zIndex: 2,
+            transition: "width .5s linear",
           }}
         ></div>
       </div>
